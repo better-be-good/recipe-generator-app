@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src='index.js'></script>
     <title>Random recipe generator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -15,9 +16,20 @@
         <div class="recipe-wrapper">
             <h1 id="recipe-title"></h1>
             <ul id="ingredients-list"></ul>
-            <p id="recipe-instructions"></p>
+            <div class="recipe-directions">
+                <h3>Directions</h3>
+                <p id="recipe-instructions"></p>
+            </div>
+            <div class="button-wrapper">
+                <button id="back-btn">Back</button>
+    
+                <button id="favorites-btn">Favorites</button>
+            </div>
+        
         </div>
+   
     </div>
+
     
 </body>
 </html>
